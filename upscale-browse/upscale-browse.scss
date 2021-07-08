@@ -3,10 +3,10 @@
 :host {
 	.single-root-category-container {
 		box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.07);
-		background-color: rgb(235, 19, 19);
+		background-color: red;
 
 		&:hover {
-			background-color: darken(rgb(236, 13, 13), 10%);
+			background-color: darken(red, 10%);
 		}
 
 		.upscale-generic-image {
@@ -84,7 +84,7 @@
 }
 
 .divider {
-	border: solid 0.5px #e0e0e0;
+	border: solid 0.5px #ff8102;
 }
 
 .guided-filter {
